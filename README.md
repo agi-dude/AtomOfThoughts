@@ -43,4 +43,4 @@ This starts an OpenAI-compatible API server on port 8000 that you can use with a
 - `--port`: Port for API server (default: 8000)
 
 ## References
-(arXiv:2502.12018)[https://doi.org/10.48550/arXiv.2502.12018]
+[arXiv:2502.12018](https://doi.org/10.48550/arXiv.2502.12018)
