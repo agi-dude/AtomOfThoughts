@@ -11,8 +11,8 @@ An implementation of the Atom of Thoughts (AOT) reasoning technique that helps l
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/aot-reasoning.git
-cd aot-reasoning
+git clone https://github.com/agi-dude/AtomOfThoughts
+cd AtomOfThoughts
 
 # Install dependencies
 pip install -r requirements.txt
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ### Chat
 
 ```bash
-python aot_reasoning.py --model llama3
+python main.py --model llama3
 ```
 
 This starts an interactive terminal chat where you can ask questions and get responses using the AOT reasoning technique.
@@ -31,7 +31,7 @@ This starts an interactive terminal chat where you can ask questions and get res
 ### API Server
 
 ```bash
-python aot_reasoning.py --mode api --port 8000 --model llama3
+python main.py --mode api --port 8000 --model llama3
 ```
 
 This starts an OpenAI-compatible API server on port 8000 that you can use with any OpenAI client library.
